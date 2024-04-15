@@ -9,25 +9,6 @@ tag = wght;
 );
 customParameters = (
 {
-name = vendorID;
-value = ADBO;
-},
-{
-name = panose;
-value = (
-2,
-11,
-2,
-0,
-0,
-0,
-0,
-0,
-0,
-0
-);
-},
-{
 name = unicodeRanges;
 value = (
 59
@@ -37,22 +18,10 @@ value = (
 name = fsType;
 value = (
 );
-},
-{
-name = ROS;
-value = "Adobe-Identity-0";
 }
 );
 date = "2024-04-15 11:56:13 +0000";
-familyName = "Neo Han Sans SC VF";
-featurePrefixes = (
-{
-automatic = 1;
-code = "languagesystem DFLT dflt;
-";
-name = Languagesystems;
-}
-);
+familyName = "Neo Han Sans SC";
 fontMaster = (
 {
 axesValues = (
@@ -228,9 +197,6 @@ instances = (
 axesValues = (
 100
 );
-instanceInterpolations = {
-m01 = 1;
-};
 name = Thin;
 weightClass = 100;
 },
@@ -238,10 +204,6 @@ weightClass = 100;
 axesValues = (
 200
 );
-instanceInterpolations = {
-"5029AEDF-C899-4409-998A-C73D58F94579" = 0.125;
-m01 = 0.875;
-};
 name = ExtraLight;
 weightClass = 200;
 },
@@ -249,10 +211,6 @@ weightClass = 200;
 axesValues = (
 300
 );
-instanceInterpolations = {
-"5029AEDF-C899-4409-998A-C73D58F94579" = 0.25;
-m01 = 0.75;
-};
 name = Light;
 weightClass = 300;
 },
@@ -260,20 +218,12 @@ weightClass = 300;
 axesValues = (
 400
 );
-instanceInterpolations = {
-"5029AEDF-C899-4409-998A-C73D58F94579" = 0.375;
-m01 = 0.625;
-};
 name = Regular;
 },
 {
 axesValues = (
 500
 );
-instanceInterpolations = {
-"5029AEDF-C899-4409-998A-C73D58F94579" = 0.5;
-m01 = 0.5;
-};
 name = Medium;
 weightClass = 500;
 },
@@ -281,10 +231,6 @@ weightClass = 500;
 axesValues = (
 600
 );
-instanceInterpolations = {
-"5029AEDF-C899-4409-998A-C73D58F94579" = 0.625;
-m01 = 0.375;
-};
 name = Semibold;
 weightClass = 600;
 },
@@ -292,10 +238,6 @@ weightClass = 600;
 axesValues = (
 700
 );
-instanceInterpolations = {
-"5029AEDF-C899-4409-998A-C73D58F94579" = 0.75;
-m01 = 0.25;
-};
 isBold = 1;
 name = Bold;
 weightClass = 700;
@@ -304,10 +246,6 @@ weightClass = 700;
 axesValues = (
 800
 );
-instanceInterpolations = {
-"5029AEDF-C899-4409-998A-C73D58F94579" = 0.875;
-m01 = 0.125;
-};
 name = ExtraBold;
 weightClass = 800;
 },
@@ -315,9 +253,6 @@ weightClass = 800;
 axesValues = (
 900
 );
-instanceInterpolations = {
-"5029AEDF-C899-4409-998A-C73D58F94579" = 1;
-};
 name = Black;
 weightClass = 900;
 }
@@ -356,15 +291,49 @@ name = "zone 4";
 );
 properties = (
 {
-key = copyrights;
+key = descriptions;
 values = (
 {
-language = ENG;
-value = "© 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.";
+language = dflt;
+value = "Better look of Source Han Sans";
+},
+{
+language = ZHS;
+value = "更好看的思源黑体";
 }
 );
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = Aaron212;
 }
 );
+},
+{
+key = designerURL;
+value = "https://aaron212.top/";
+},
+{
+key = familyNames;
+values = (
+{
+language = ZHS;
+value = "新源黑体";
+}
+);
+},
+{
+key = vendorID;
+value = AARN;
+}
+);
+settings = {
+fontType = variable;
+previewRemoveOverlap = 0;
+};
 stems = (
 {
 horizontal = 1;
@@ -378,6 +347,6 @@ name = vStem1;
 }
 );
 unitsPerEm = 1000;
-versionMajor = 1;
-versionMinor = 0;
+versionMajor = 0;
+versionMinor = 1;
 }
