@@ -1,0 +1,16 @@
+{
+glyphname = .notdef;
+layers = (
+{
+layerId = m01;
+vertWidth = 1000;
+width = 1000;
+},
+{
+layerId = "5029AEDF-C899-4409-998A-C73D58F94579";
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = .notdef;
+}

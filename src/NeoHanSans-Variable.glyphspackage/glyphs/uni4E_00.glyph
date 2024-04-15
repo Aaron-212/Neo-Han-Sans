@@ -1,0 +1,40 @@
+{
+color = 7;
+glyphname = uni4E00;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(50,407,l),
+(50,374,l),
+(955,374,l),
+(955,407,l)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+},
+{
+layerId = "5029AEDF-C899-4409-998A-C73D58F94579";
+shapes = (
+{
+closed = 1;
+nodes = (
+(35,469,l),
+(35,310,l),
+(967,310,l),
+(967,469,l)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid09481;
+unicode = 19968;
+}

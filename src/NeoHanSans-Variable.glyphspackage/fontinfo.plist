@@ -1,0 +1,383 @@
+{
+.appVersion = "3300";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+}
+);
+customParameters = (
+{
+name = vendorID;
+value = ADBO;
+},
+{
+name = panose;
+value = (
+2,
+11,
+2,
+0,
+0,
+0,
+0,
+0,
+0,
+0
+);
+},
+{
+name = unicodeRanges;
+value = (
+59
+);
+},
+{
+name = fsType;
+value = (
+);
+},
+{
+name = ROS;
+value = "Adobe-Identity-0";
+}
+);
+date = "2024-04-15 11:56:13 +0000";
+familyName = "Neo Han Sans SC VF";
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+";
+name = Languagesystems;
+}
+);
+fontMaster = (
+{
+axesValues = (
+100
+);
+customParameters = (
+{
+name = typoAscender;
+value = 880;
+},
+{
+name = typoDescender;
+value = -120;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1160;
+},
+{
+name = winDescent;
+value = 288;
+},
+{
+name = hheaAscender;
+value = 1160;
+},
+{
+name = hheaDescender;
+value = -288;
+},
+{
+name = strikeoutPosition;
+value = 325;
+},
+{
+name = strikeoutSize;
+value = 50;
+},
+{
+name = underlinePosition;
+value = -150;
+}
+);
+id = m01;
+metricValues = (
+{
+pos = 880;
+},
+{
+pos = 733;
+},
+{
+pos = 543;
+},
+{
+},
+{
+pos = -120;
+},
+{
+},
+{
+pos = -250;
+},
+{
+pos = 1100;
+},
+{
+pos = -250;
+},
+{
+pos = 1100;
+}
+);
+name = ExtraLight;
+stemValues = (
+35,
+28,
+46
+);
+},
+{
+axesValues = (
+900
+);
+customParameters = (
+{
+name = typoAscender;
+value = 880;
+},
+{
+name = typoDescender;
+value = -120;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1160;
+},
+{
+name = winDescent;
+value = 288;
+},
+{
+name = hheaAscender;
+value = 1160;
+},
+{
+name = hheaDescender;
+value = -288;
+},
+{
+name = strikeoutPosition;
+value = 325;
+},
+{
+name = strikeoutSize;
+value = 50;
+},
+{
+name = underlinePosition;
+value = -150;
+}
+);
+id = "5029AEDF-C899-4409-998A-C73D58F94579";
+metricValues = (
+{
+pos = 880;
+},
+{
+pos = 733;
+},
+{
+pos = 543;
+},
+{
+},
+{
+pos = -120;
+},
+{
+},
+{
+pos = -250;
+},
+{
+pos = 1100;
+},
+{
+pos = -250;
+},
+{
+pos = 1100;
+}
+);
+name = Black;
+stemValues = (
+35,
+28,
+46
+);
+}
+);
+instances = (
+{
+axesValues = (
+100
+);
+instanceInterpolations = {
+m01 = 1;
+};
+name = Thin;
+weightClass = 100;
+},
+{
+axesValues = (
+200
+);
+instanceInterpolations = {
+"5029AEDF-C899-4409-998A-C73D58F94579" = 0.125;
+m01 = 0.875;
+};
+name = ExtraLight;
+weightClass = 200;
+},
+{
+axesValues = (
+300
+);
+instanceInterpolations = {
+"5029AEDF-C899-4409-998A-C73D58F94579" = 0.25;
+m01 = 0.75;
+};
+name = Light;
+weightClass = 300;
+},
+{
+axesValues = (
+400
+);
+instanceInterpolations = {
+"5029AEDF-C899-4409-998A-C73D58F94579" = 0.375;
+m01 = 0.625;
+};
+name = Regular;
+},
+{
+axesValues = (
+500
+);
+instanceInterpolations = {
+"5029AEDF-C899-4409-998A-C73D58F94579" = 0.5;
+m01 = 0.5;
+};
+name = Medium;
+weightClass = 500;
+},
+{
+axesValues = (
+600
+);
+instanceInterpolations = {
+"5029AEDF-C899-4409-998A-C73D58F94579" = 0.625;
+m01 = 0.375;
+};
+name = Semibold;
+weightClass = 600;
+},
+{
+axesValues = (
+700
+);
+instanceInterpolations = {
+"5029AEDF-C899-4409-998A-C73D58F94579" = 0.75;
+m01 = 0.25;
+};
+isBold = 1;
+name = Bold;
+weightClass = 700;
+},
+{
+axesValues = (
+800
+);
+instanceInterpolations = {
+"5029AEDF-C899-4409-998A-C73D58F94579" = 0.875;
+m01 = 0.125;
+};
+name = ExtraBold;
+weightClass = 800;
+},
+{
+axesValues = (
+900
+);
+instanceInterpolations = {
+"5029AEDF-C899-4409-998A-C73D58F94579" = 1;
+};
+name = Black;
+weightClass = 900;
+}
+);
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+},
+{
+name = "zone 1";
+},
+{
+name = "zone 2";
+},
+{
+name = "zone 3";
+},
+{
+name = "zone 4";
+}
+);
+properties = (
+{
+key = copyrights;
+values = (
+{
+language = ENG;
+value = "© 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.";
+}
+);
+}
+);
+stems = (
+{
+horizontal = 1;
+name = hStem0;
+},
+{
+name = vStem0;
+},
+{
+name = vStem1;
+}
+);
+unitsPerEm = 1000;
+versionMajor = 1;
+versionMinor = 0;
+}
