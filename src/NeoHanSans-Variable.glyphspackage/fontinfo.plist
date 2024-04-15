@@ -86,26 +86,9 @@ pos = 543;
 pos = -120;
 },
 {
-},
-{
-pos = -250;
-},
-{
-pos = 1100;
-},
-{
-pos = -250;
-},
-{
-pos = 1100;
 }
 );
 name = ExtraLight;
-stemValues = (
-35,
-28,
-46
-);
 },
 {
 axesValues = (
@@ -170,26 +153,9 @@ pos = 543;
 pos = -120;
 },
 {
-},
-{
-pos = -250;
-},
-{
-pos = 1100;
-},
-{
-pos = -250;
-},
-{
-pos = 1100;
 }
 );
 name = Black;
-stemValues = (
-35,
-28,
-46
-);
 }
 );
 instances = (
@@ -275,18 +241,6 @@ type = descender;
 },
 {
 type = "italic angle";
-},
-{
-name = "zone 1";
-},
-{
-name = "zone 2";
-},
-{
-name = "zone 3";
-},
-{
-name = "zone 4";
 }
 );
 properties = (
@@ -334,18 +288,6 @@ settings = {
 fontType = variable;
 previewRemoveOverlap = 0;
 };
-stems = (
-{
-horizontal = 1;
-name = hStem0;
-},
-{
-name = vStem0;
-},
-{
-name = vStem1;
-}
-);
 unitsPerEm = 1000;
 versionMajor = 0;
 versionMinor = 1;
