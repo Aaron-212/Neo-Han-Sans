@@ -6,9 +6,6 @@ from fontTools.otlLib import builder
     using fontmake to compile the UFOs to the final binary font.
 """
 
-path = "fonts/variable/NeoHanSansSC[wght].ttf"
-font = TTFont(path)
-
 axes = [
     dict(
         tag="wght",
@@ -27,5 +24,12 @@ axes = [
     )
 ]
 
-builder.buildStatTable(font, axes)
-font.save(path)
+ttpath = "fonts/variable/NeoHanSansSC[wght].ttf"
+ttfont = TTFont(ttpath)
+builder.buildStatTable(ttfont, axes)
+ttfont.save(ttpath)
+
+otpath = "fonts/variable/NeoHanSansSC[wght].otf"
+otfont = TTFont(otpath)
+builder.buildStatTable(otfont, axes)
+otfont.save(otpath)
