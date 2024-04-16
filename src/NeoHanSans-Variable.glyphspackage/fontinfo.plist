@@ -69,6 +69,7 @@ name = underlinePosition;
 value = -150;
 }
 );
+iconName = Light;
 id = m01;
 metricValues = (
 {
@@ -88,7 +89,7 @@ pos = -120;
 {
 }
 );
-name = ExtraLight;
+name = Thin;
 },
 {
 axesValues = (
@@ -136,6 +137,7 @@ name = underlinePosition;
 value = -150;
 }
 );
+iconName = Bold;
 id = "5029AEDF-C899-4409-998A-C73D58F94579";
 metricValues = (
 {
