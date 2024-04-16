@@ -6763,6 +6763,7 @@ uni9F9B,
 uni9F9F,
 uni9FA0,
 space,
-.notdef,
-"space-han"
+nbspace,
+"space-han",
+.notdef
 )

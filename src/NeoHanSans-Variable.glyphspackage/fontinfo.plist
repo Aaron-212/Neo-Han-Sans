@@ -18,6 +18,21 @@ value = (
 name = fsType;
 value = (
 );
+},
+{
+name = panose;
+value = (
+0,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1,
+1
+);
 }
 );
 date = "2024-04-15 11:56:13 +0000";
@@ -29,32 +44,8 @@ axesValues = (
 );
 customParameters = (
 {
-name = typoAscender;
-value = 880;
-},
-{
-name = typoDescender;
-value = -120;
-},
-{
 name = typoLineGap;
 value = 0;
-},
-{
-name = winAscent;
-value = 1160;
-},
-{
-name = winDescent;
-value = 288;
-},
-{
-name = hheaAscender;
-value = 1160;
-},
-{
-name = hheaDescender;
-value = -288;
 },
 {
 name = strikeoutPosition;
@@ -67,6 +58,14 @@ value = 50;
 {
 name = underlinePosition;
 value = -150;
+},
+{
+name = "CJK Guide";
+value = "90";
+},
+{
+name = "CJK Grid";
+value = "2";
 }
 );
 iconName = Light;
@@ -97,32 +96,8 @@ axesValues = (
 );
 customParameters = (
 {
-name = typoAscender;
-value = 880;
-},
-{
-name = typoDescender;
-value = -120;
-},
-{
 name = typoLineGap;
 value = 0;
-},
-{
-name = winAscent;
-value = 1160;
-},
-{
-name = winDescent;
-value = 288;
-},
-{
-name = hheaAscender;
-value = 1160;
-},
-{
-name = hheaDescender;
-value = -288;
 },
 {
 name = strikeoutPosition;
@@ -135,6 +110,14 @@ value = 50;
 {
 name = underlinePosition;
 value = -150;
+},
+{
+name = "CJK Guide";
+value = "90";
+},
+{
+name = "CJK Grid";
+value = "2";
 }
 );
 iconName = Bold;
@@ -199,7 +182,7 @@ weightClass = 500;
 axesValues = (
 600
 );
-name = Semibold;
+name = SemiBold;
 weightClass = 600;
 },
 {
@@ -291,6 +274,6 @@ fontType = variable;
 previewRemoveOverlap = 0;
 };
 unitsPerEm = 1000;
-versionMajor = 0;
-versionMinor = 1;
+versionMajor = 1;
+versionMinor = 0;
 }

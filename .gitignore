@@ -1,2 +1,6 @@
 .DS_STORE
 src/NeoHanSans-Variable（自动存储）.glyphspackage
+fonts
+fonts-temp
+version.txt
+*.stamp
