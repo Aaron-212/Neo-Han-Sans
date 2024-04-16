@@ -19,7 +19,7 @@ build: build.stamp
 
 build.stamp: init.stamp
 	fontmake -g "src/NeoHanSans-Variable.glyphspackage" -o variable --output-path "fonts/variable/NeoHanSansSC[wght].ttf"
-	fontmake -g "src/NeoHanSans-Variable.glyphspackage" -o variable-cff2 --output-path "fonts/variable/NeoHanSansSC[wght].otf"
+#	fontmake -g "src/NeoHanSans-Variable.glyphspackage" -o variable-cff2 --output-path "fonts/variable/NeoHanSansSC[wght].otf"
 	python scripts/stat.py
 	touch build.stamp
 

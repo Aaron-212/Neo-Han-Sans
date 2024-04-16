@@ -29,7 +29,7 @@ ttfont = TTFont(ttpath)
 builder.buildStatTable(ttfont, axes)
 ttfont.save(ttpath)
 
-otpath = "fonts/variable/NeoHanSansSC[wght].otf"
-otfont = TTFont(otpath)
-builder.buildStatTable(otfont, axes)
-otfont.save(otpath)
+# otpath = "fonts/variable/NeoHanSansSC[wght].otf"
+# otfont = TTFont(otpath)
+# builder.buildStatTable(otfont, axes)
+# otfont.save(otpath)
