@@ -11,6 +11,7 @@ customParameters = (
 {
 name = unicodeRanges;
 value = (
+48,
 59
 );
 },
@@ -22,7 +23,7 @@ value = (
 {
 name = panose;
 value = (
-0,
+1,
 1,
 1,
 1,
@@ -33,6 +34,24 @@ value = (
 1,
 1
 );
+},
+{
+name = "Axis Mappings";
+value = {
+wght = {
+100 = 100;
+400 = 400;
+490 = 500;
+580 = 600;
+670 = 700;
+780 = 800;
+900 = 900;
+};
+};
+},
+{
+name = "Enforce Compatibility Check";
+value = 1;
 }
 );
 date = "2024-04-15 11:56:13 +0000";
@@ -66,6 +85,14 @@ value = "90";
 {
 name = "CJK Grid";
 value = "2";
+},
+{
+name = hheaDescender;
+value = -280;
+},
+{
+name = hheaAscender;
+value = 1040;
 }
 );
 iconName = Light;
@@ -75,7 +102,7 @@ metricValues = (
 pos = 880;
 },
 {
-pos = 733;
+pos = 760;
 },
 {
 pos = 543;
@@ -118,6 +145,14 @@ value = "90";
 {
 name = "CJK Grid";
 value = "2";
+},
+{
+name = hheaDescender;
+value = -280;
+},
+{
+name = hheaAscender;
+value = 1040;
 }
 );
 iconName = Bold;
@@ -127,7 +162,7 @@ metricValues = (
 pos = 880;
 },
 {
-pos = 733;
+pos = 760;
 },
 {
 pos = 543;

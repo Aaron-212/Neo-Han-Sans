@@ -6764,6 +6764,10 @@ uni9F9F,
 uni9FA0,
 space,
 nbspace,
+.notdef,
 "space-han",
-.notdef
+"comma-han",
+"period-han",
+comma.full,
+period.full
 )

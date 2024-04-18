@@ -2,8 +2,8 @@ from fontTools.ttLib import TTFont
 from fontTools.otlLib import builder
 
 """
-    Add a STAT table to the Designspace document as a preprocessing before
-    using fontmake to compile the UFOs to the final binary font.
+    Add a STAT table to the Designspace document as a postprocessing after
+    using fontmake to compile the Glyphspackage to the final binary font.
 """
 
 axes = [
@@ -15,10 +15,10 @@ axes = [
             dict(value=200, name='ExtraLight'),
             dict(value=300, name='Light'),
             dict(value=400, name='Regular', flags=0x2),
-            dict(value=500, name='Medium'),
-            dict(value=600, name='SemiBold'),
-            dict(value=700, name='Bold'),
-            dict(value=800, name='ExtraBold'),
+            dict(value=490, name='Medium'),
+            dict(value=580, name='SemiBold'),
+            dict(value=670, name='Bold'),
+            dict(value=780, name='ExtraBold'),
             dict(value=900, name='Black'),
         ],
     )
