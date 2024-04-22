@@ -93,6 +93,14 @@ value = -280;
 {
 name = hheaAscender;
 value = 1040;
+},
+{
+name = winDescent;
+value = -280;
+},
+{
+name = winAscent;
+value = 1040;
 }
 );
 iconName = Light;
@@ -152,6 +160,14 @@ value = -280;
 },
 {
 name = hheaAscender;
+value = 1040;
+},
+{
+name = winDescent;
+value = -280;
+},
+{
+name = winAscent;
 value = 1040;
 }
 );
@@ -298,6 +314,19 @@ language = ZHS;
 value = "新源黑体";
 }
 );
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = Aaron212;
+}
+);
+},
+{
+key = manufacturerURL;
+value = "https://aaron212.top/";
 },
 {
 key = vendorID;

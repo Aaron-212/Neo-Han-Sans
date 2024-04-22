@@ -18,12 +18,13 @@ build: build.stamp
 
 
 build.stamp: init.stamp
-	fontmake -g "src/NeoHanSans-Variable.glyphspackage" -o variable --output-path "fonts-temp/variable/NeoHanSansSC[wght].ttf"
-#	fontmake -g "src/NeoHanSans-Variable.glyphspackage" -o variable-cff2 --output-path "fonts/variable/NeoHanSansSC[wght].otf"
+	fontmake -g "src/NeoHanSans-Variable.glyphspackage" -o ufo --output-dir "fonts-temp/master-ufo" --filter DecomposeTransformedComponentsFilter
+	python scripts/stat.py
+	fontmake -m "fonts-temp/master-ufo/NeoHanSansSC.designspace" -o variable --output-path "fonts-temp/variable/NeoHanSansSC[wght].ttf"
+#	fontmake -m "fonts-temp/master-ufo/NeoHanSansSC.designspace" -o variable-cff2 --output-path "fonts-temp/variable/NeoHanSansSC[wght].otf"
 	mkdir fonts
 	mkdir fonts/variable
 	gftools fix-nonhinting "fonts-temp/variable/NeoHanSansSC[wght].ttf" "fonts/variable/NeoHanSansSC[wght].ttf"
-	python scripts/stat.py
 	touch build.stamp
 
 zip: build.stamp

@@ -1,35 +1,25 @@
-from fontTools.ttLib import TTFont
-from fontTools.otlLib import builder
+from fontTools.designspaceLib import DesignSpaceDocument, LocationLabelDescriptor, AxisLabelDescriptor
 
 """
-    Add a STAT table to the Designspace document as a postprocessing after
-    using fontmake to compile the Glyphspackage to the final binary font.
+    Add a STAT table to the Designspace document as a preprocessing before
+    using fontmake to compile the UFOs to the final binary font.
 """
 
-axes = [
-    dict(
-        tag="wght",
-        name="Weight",
-        values=[
-            dict(value=100, name='Thin'),
-            dict(value=200, name='ExtraLight'),
-            dict(value=300, name='Light'),
-            dict(value=400, name='Regular', flags=0x2),
-            dict(value=490, name='Medium'),
-            dict(value=580, name='SemiBold'),
-            dict(value=670, name='Bold'),
-            dict(value=780, name='ExtraBold'),
-            dict(value=900, name='Black'),
-        ],
-    )
+path = "fonts-temp/master-ufo/NeoHanSansSC.designspace"
+dsfile = DesignSpaceDocument.fromfile(path)
+
+wghtAxisLabels = [
+    AxisLabelDescriptor(name="Thin", userValue=100, userMinimum=100, userMaximum=150),
+    AxisLabelDescriptor(name="ExtraLight", userValue=200, userMinimum=150, userMaximum=250),
+    AxisLabelDescriptor(name="Light", userValue=300, userMinimum=250, userMaximum=350),
+    AxisLabelDescriptor(name="Regular", userValue=400, userMinimum=350, userMaximum=450),
+    AxisLabelDescriptor(name="Medium", userValue=490, userMinimum=450, userMaximum=550),
+    AxisLabelDescriptor(name="SemiBold", userValue=580, userMinimum=550, userMaximum=650),
+    AxisLabelDescriptor(name="Bold", userValue=670, userMinimum=650, userMaximum=750),
+    AxisLabelDescriptor(name="ExtraBold", userValue=780, userMinimum=750, userMaximum=850),
+    AxisLabelDescriptor(name="Black", userValue=900, userMinimum=850, userMaximum=900),
 ]
+dsfile.getAxisByTag("wght").axisLabels = wghtAxisLabels
 
-ttpath = "fonts/variable/NeoHanSansSC[wght].ttf"
-ttfont = TTFont(ttpath)
-builder.buildStatTable(ttfont, axes)
-ttfont.save(ttpath)
 
-# otpath = "fonts/variable/NeoHanSansSC[wght].otf"
-# otfont = TTFont(otpath)
-# builder.buildStatTable(otfont, axes)
-# otfont.save(otpath)
+dsfile.write(path)
