@@ -1,4 +1,4 @@
-from fontTools.designspaceLib import DesignSpaceDocument, LocationLabelDescriptor, AxisLabelDescriptor
+from fontTools.designspaceLib import DesignSpaceDocument, AxisLabelDescriptor
 
 """
     Add a STAT table to the Designspace document as a preprocessing before
