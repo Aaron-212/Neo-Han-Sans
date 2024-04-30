@@ -5,3 +5,4 @@ fonts-temp
 version.txt
 *.stamp
 install.sh
+out
